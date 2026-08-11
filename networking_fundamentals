@@ -1,0 +1,194 @@
+NETWORKING FUNDAMENTALS
+=======================
+
+1. Ethernet
+------------
+Ethernet is a wired networking technology used to connect devices within a local area network (LAN).
+
+2. Wi-Fi
+--------
+Wi-Fi is a wireless networking technology that allows devices to connect to a network using radio waves.
+
+3. MAC Address
+--------------
+A MAC (Media Access Control) address is a unique hardware address assigned to a network interface. It is used to identify a device at the data-link layer.
+
+Example:
+00:1A:2B:3C:4D:5E
+
+4. Switch
+---------
+A switch is a networking device that connects devices within a LAN and forwards data frames to the correct device using MAC addresses.
+
+5. IP Address
+-------------
+An IP address is a logical address assigned to a device on a network. It is used to identify the device and enable communication between networks.
+
+Example:
+192.168.1.10
+
+6. Static IP
+------------
+A static IP address is an IP address manually assigned to a device that normally remains unchanged.
+
+7. DHCP
+--------
+DHCP (Dynamic Host Configuration Protocol) automatically assigns IP addresses and other network configuration information to devices.
+
+8. Subnet
+---------
+A subnet is a logical division of an IP network into smaller networks. Subnetting helps organize networks and control network traffic.
+
+9. Router
+---------
+A router is a networking device that connects different networks and forwards packets between them based on IP addresses.
+
+10. Default Gateway
+-------------------
+A default gateway is the router or device that a host uses to communicate with destinations outside its local network.
+
+11. Routes
+----------
+A route is a rule that tells a router where and how to forward packets toward a destination network.
+
+12. Static Routing
+------------------
+Static routing is a method where network routes are manually configured by a network administrator.
+
+13. OSPF
+--------
+OSPF (Open Shortest Path First) is a dynamic link-state routing protocol used to find efficient paths between networks.
+
+14. BGP
+-------
+BGP (Border Gateway Protocol) is a routing protocol used to exchange routing information between different autonomous systems on the Internet.
+
+15. Ping
+--------
+Ping is a network utility used to test whether a destination is reachable and to measure the round-trip time of packets.
+
+16. ICMP
+--------
+ICMP (Internet Control Message Protocol) is a network protocol used for error reporting, diagnostics, and network control messages.
+
+17. TCP
+-------
+TCP (Transmission Control Protocol) is a connection-oriented transport-layer protocol that provides reliable and ordered delivery of data.
+
+Key features:
+- Connection-oriented
+- Reliable delivery
+- Ordered data
+- Error checking
+- Flow and congestion control
+
+18. UDP
+-------
+UDP (User Datagram Protocol) is a connectionless transport-layer protocol that sends data without guaranteeing delivery or order.
+
+Key features:
+- Connectionless
+- Faster than TCP
+- No guaranteed delivery
+- Low overhead
+
+19. Ports
+---------
+A port is a logical number used to identify a specific network service or application on a device.
+
+Common ports:
+HTTP  - 80
+HTTPS - 443
+SSH   - 22
+DNS   - 53
+FTP   - 21
+
+20. Firewall
+------------
+A firewall is a security system that monitors and controls incoming and outgoing network traffic based on predefined security rules.
+
+21. TLS
+-------
+TLS (Transport Layer Security) is a cryptographic protocol used to secure communication over a network by providing encryption, authentication, and data integrity.
+
+22. SSL
+-------
+SSL (Secure Sockets Layer) is an older protocol designed to secure network communication. It has been replaced by TLS because SSL is considered insecure.
+
+23. VPN
+-------
+A VPN (Virtual Private Network) creates an encrypted connection between a device and a network or VPN server, helping protect network traffic from unauthorized access.
+
+24. DNS
+-------
+DNS (Domain Name System) translates human-readable domain names into IP addresses.
+
+Example:
+
+www.google.com
+      ↓
+IP address
+
+25. HTTP
+--------
+HTTP (HyperText Transfer Protocol) is an application-layer protocol used for communication between web clients and web servers.
+
+26. HTTPS
+---------
+HTTPS (HyperText Transfer Protocol Secure) is HTTP protected using TLS encryption. It provides confidentiality, integrity, and authentication for web communication.
+
+27. Load Balancer
+-----------------
+A load balancer distributes incoming network or application traffic across multiple servers to improve performance, availability, and reliability.
+
+
+QUICK INTERVIEW REVISION
+========================
+
+MAC Address
+→ Identifies a network interface at the data-link layer.
+
+IP Address
+→ Logically identifies a device/interface for network communication.
+
+Switch
+→ Connects devices within a LAN and forwards frames using MAC addresses.
+
+Router
+→ Connects different networks and forwards packets using IP addresses.
+
+DHCP
+→ Automatically assigns IP configuration.
+
+DNS
+→ Converts domain names into IP addresses.
+
+TCP
+→ Reliable and connection-oriented.
+
+UDP
+→ Fast, connectionless, no guaranteed delivery.
+
+HTTP
+→ Protocol used for web communication.
+
+HTTPS
+→ HTTP secured using TLS.
+
+ICMP
+→ Used for network diagnostics and control messages.
+
+Firewall
+→ Controls network traffic according to security rules.
+
+VPN
+→ Creates an encrypted network connection.
+
+Load Balancer
+→ Distributes traffic across multiple servers.
+
+OSPF
+→ Dynamic routing protocol used within an autonomous system.
+
+BGP
+→ Routing protocol used between autonomous systems.
