@@ -1,1 +1,6 @@
 TCP/IP — How the internet's backbone actually works, including the 3-way handshake, packet delivery, and why IPv6 exists
+• UDP — Why some apps intentionally skip reliability checks to stay blazing fast, and where that trade-off makes total sense
+• DNS & DHCP — The two unsung heroes that automatically handle your addresses so you never have to think about them
+• HTTP/HTTPS, FTP & SSH — How your browser loads pages, how files get transferred, and how engineers securely control servers from anywhere in the world
+• SMTP, TLS/SSL & WebSocket — The protocols behind your email, your padlock icon, and real-time apps like live chat and multiplayer games
+• QUIC & BGP — The modern speed upgrade powering today's web and the powerful-but-dangerous router that decides where your data goes globally
