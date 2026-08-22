@@ -1,0 +1,70 @@
+# 🐳 Day 01 — Docker Fundamentals
+
+## 1. What is Docker?
+
+Docker is a platform used to **build, package, and run applications in isolated environments called containers**.
+
+It helps ensure that an application works consistently across different systems by packaging the application along with its required dependencies.
+
+**In simple words:**
+Docker allows us to package an application and everything it needs to run into a portable environment.
+
+---
+
+## 2. Docker Images
+
+A Docker Image is a **read-only template used to create Docker containers**.
+
+It contains the application code, libraries, dependencies, and other files required to run an application.
+
+Images can be downloaded from registries such as Docker Hub.
+
+**Example:**
+
+```bash
+docker pull nginx
+```
+
+Here, `nginx` is a Docker image.
+
+**In simple words:**
+**Image = Blueprint of a container.**
+
+---
+
+## 3. Docker Containers
+
+A Docker Container is a **running instance of a Docker image**.
+
+Containers provide an isolated environment where an application can run without directly interfering with other applications on the system.
+
+A single Docker image can be used to create multiple containers.
+
+**Example:**
+
+```bash
+docker run nginx
+```
+
+This creates and starts a container using the `nginx` image.
+
+**In simple words:**
+**Container = Running instance of an image.**
+
+---
+
+## 🔗 Basic Docker Relationship
+
+```text
+Docker Image
+     ↓
+docker run
+     ↓
+Docker Container
+```
+
+### 🧠 Remember
+
+* **Docker** → Platform for containerization
+* **Image** → Blueprint/template
+* **Container** → Running instance of an image
