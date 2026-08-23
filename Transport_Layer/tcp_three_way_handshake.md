@@ -15,4 +15,4 @@ Client                                  Server
 ## Step Breakdown:
 1. **SYN (Synchronize):** Client chooses an initial sequence number `x` and sends a `SYN` packet to the server to initiate connection.
 2. **SYN-ACK (Synchronize-Acknowledge):** Server acknowledges client sequence number with `ack = x + 1` and sends its own sequence number `y`.
-3. **ACK (Acknowledge):** Client acknowledges server sequence number with `ack = y + 1`. The connection is now established and data transfer begins.
+3. **ACK (Acknowledge):** Client acknowledges server sequence number with `ack = y + 1`. The connection is now established and data transfer begins
