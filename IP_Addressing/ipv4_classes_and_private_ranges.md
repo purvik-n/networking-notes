@@ -1,7 +1,7 @@
 # 🔢 IPv4 Addressing Classes & RFC 1918 Private Ranges
 
 ## IPv4 Structure
-An IPv4 address consists of **32 bits** divided into 4 octets separated by dots (e.g., `192.168.1.1`). Each octet ranges from 0 to 255.
+An IPv4 address consists of **32 bits** divided into 4 octets separated by dots (e.g., `192.168.1.1`). Each octet ranges from 0 to 255
 
 ## Classful Addressing (Historical)
 - **Class A:** `0.0.0.0` - `127.255.255.255` (Default Mask: `255.0.0.0` /8) - Large networks
